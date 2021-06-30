@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Form</title>
+	</head>
+	<body>
+		<form action="" method="GET">
+			<div>
+				<input type="text" name="nome" placeholder="Scrivi il tuo nome">
+				<input type="text" name="cognome" placeholder="Scrivi il tuo cognome">
+			</div>
+			<div>
+				<input type="password" name="password" placeholder="Inserisci la password">
+				<label for="data-nascita">Data nascita</label>
+				<input type="date" name="data-nascita" id="data-nascita" placeholder="Data">
+			</div>
+			<div>
+				<label for="sesso-m">Maschio</label>
+				<input type="radio" name="sesso" id="sesso-m" value="m">
+				<label for="sesso-f">Femmina</label>
+				<input type="radio" name="sesso" id="sesso-f" value="f">
+			</div>
+			<div>
+				<select name="regione">
+					<option value="">--- Scegli un regione ---</option>
+					<option value="liguria">Regione Liguria</option>
+					<option value="molise">Regione Molise</option>
+				</select>
+			</div>
+
+			<button type="submit">Invia</button>
+		</form>
+	</body>
+</html>
